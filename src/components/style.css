@@ -1,0 +1,44 @@
+body{
+    background-color: #D3D3D3;
+}
+
+
+/* .App{
+    background-color: aqua;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+} */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+  }
+  
+  .flex-item + .flex-item {
+    margin-left: 10px;
+  }
+  
+  .button {
+    margin-top: 15px;
+    background-color: #0066FF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.success_message {
+    color: green;
+    font-size: 15px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
